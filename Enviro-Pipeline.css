@@ -1,0 +1,96 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 840px;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.u-section-1 .u-image-1 {
+  min-height: 741px;
+  background-image: url("images/EnviroPipeline.jpg");
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-1 .u-image-2 {
+  min-height: 741px;
+  background-image: url("images/EnviroPipeline2.jpg");
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 30px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 430px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    position: relative;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 611px;
+  }
+
+  .u-section-1 .u-image-2 {
+    min-height: 611px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 353px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 468px;
+  }
+
+  .u-section-1 .u-image-2 {
+    min-height: 468px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 860px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 702px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-image-2 {
+    min-height: 702px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 578px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 442px;
+  }
+
+  .u-section-1 .u-image-2 {
+    min-height: 442px;
+  }
+}
