@@ -20,12 +20,11 @@
 }
 
 .u-section-1 .u-btn-1 {
-  border-style: solid;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 0.625rem;
   align-self: center;
+  border-style: none none solid;
+  font-size: 0.625rem;
   margin: 34px auto 0;
+  padding: 0;
 }
 
 .u-section-1 .u-list-1 {
@@ -87,7 +86,7 @@
 .u-section-1 .u-image-2 {
   width: 150px;
   height: 150px;
-  background-image: url("images/251780618-01.jpeg?rand=6a0e");
+  background-image: url("images/251780618-01.jpeg");
   background-position: 50% 50%;
   margin: 7px auto 0;
 }
@@ -125,7 +124,7 @@
 .u-section-1 .u-image-3 {
   width: 150px;
   height: 150px;
-  background-image: url("images/4c1d4a3418017424a48944dc95959152.jpeg?rand=eb2d");
+  background-image: url("images/4c1d4a3418017424a48944dc95959152.jpeg");
   background-position: 0% 50%;
   margin: 7px auto 0;
 }
@@ -167,7 +166,9 @@
   }
 
   .u-section-1 .u-btn-1 {
+    text-transform: none;
     margin-bottom: 60px;
+    font-weight: normal;
   }
 
   .u-section-1 .u-list-1 {
